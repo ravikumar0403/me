@@ -23,6 +23,9 @@ var projects = [
     }
 ]
 
+var blogs = [
+]
+
 var projectsSet = document.getElementById('projects-set')
 
 for(var i=0;i<projects.length;i++){
