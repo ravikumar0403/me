@@ -1,89 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ravi Kumar Singh</title>
-    <link rel="stylesheet" href="style.css">
+    <link href="/styles.css" rel="stylesheet">
 </head>
+
 <body>
-    <nav>
-        <h1 class='nav-brand'>Ravi Kumar Singh</h1>
-        <ul class='list-inline padding-left'>
-            <li><a href='#'>Home</a></li>
-            <li><a href='#projects'>Projects</a></li>
-            <li><a href='#blogs'>Blogs</a></li>
-            <li><a href='#contact'>Contact</a></li>
+    <nav class="navigation">
+        <div class="nav-brand">Ravi Kumar Singh</div>
+        <ul class="nav-pills">
+            <li class="list-item-inline">
+                <a href="/" class="link link-active">Home</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="./projects.html" class="link">Projects</a>
+            </li>
+            <li class="list-item-inline">
+                <a href="./blogs.html" class="link">Blogs</a>
+            </li>
         </ul>
     </nav>
-    <main>
-        <section class='banner'>
-            <img class='banner-img' src="res/header.svg" alt="developer">
-            <h1>My name is Ravi Kumar Singh</h1>
-            <p>I am a <span>Web Developer</span> based in India.<br>Have a great idea to discuss? Let's Connect!!</p>
-        </section>
-        <section class='container'>
-            <fieldset>
-            <legend>Skills</legend>
-                <ul class='list-inline'>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                    <li>JQuery</li>
-                    <li>Git</li>
-                    <li>MySQL</li>
-                </ul>
-            </fieldset>
-        </section>
-        <section id='projects' class='container'>
-            <fieldset id='projects-set'>
-                <legend>Projects</legend>
+    <div class="main">
+        <header class="header">
+            <img class="header-img" src="/res/images/hero.svg">
+            <h1 class="header-heading">Ravi Kumar Singh <span class="header-heading-inverted">the web developer</span>
+            </h1>
+        </header>
 
-                <!-- Projects Added Here Dynamically -->
-
-
-                <!-- <div class='project-wrapper'>
-                    <a class='primary-link' href="">View all projects</a>
-                </div> -->
-            </fieldset>
+        <section class="section section-inverted">
+            <div class="container container-center">
+                <h1>Technologies</h1>
+                <p>I am familiar with Java, Javascript, ReactJS, NodeJS, MongoDB, MySQL, Git, HTML5, CSS3, Linux
+                    Terminal and AWS.</p>
+            </div>
         </section>
-        <section id='blogs' class='container'>
-            <fieldset>
-                <legend>Blogs - Coming Soon</legend>
-                <!-- <a href="">
-                    <div class='project-wrapper'>
-                        <img class='thumbnail' src="res/vegan-store.jpg" alt="vegan-store">
-                        <div class='project-details-wrapper'>
-                            <h2>Vegan Store Website Template</h2>
-                            <p>This is my first HTML, CSS project. It is designed using only HTML and CSS.<br>The design is also made responsive to look good on different screen sizes</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class='project-wrapper'>
-                        <img class='thumbnail' src="res/vegan-store.jpg" alt="vegan-store">
-                        <div class='project-details-wrapper'>
-                            <h2>Vegan Store Website Template</h2>
-                            <p>This is my first HTML, CSS project. It is designed using only HTML and CSS.<br>The design is also made responsive to look good on different screen sizes</p>
-                        </div>
-                    </div>
-                </a> -->
 
-                <!-- <div class='project-wrapper'>
-                    <a class='primary-link' href="">View all Blogs</a>
-                </div> -->
-            </fieldset>
+        <section class="section">
+            <div class="container container-center">
+                <h1>Projects</h1>
+                <p>Learn - Build - Showcase. That's what I like to do. You can browse my projects hosted online and it's
+                    source code.</p>
+                <a href="./projects.html" class="link link-primary">See my Projects</a>
+            </div>
         </section>
-        <footer id='contact'>
-            <h1>Let's Connect</h1>
-            <ul class='list-inline'>
-                <li><a href="https://www.linkedin.com/in/ravikumar0403/">LinkedIn</a></li>
-                <li><a href="https://github.com/ravikumar0403">Github</a></li>
-                <li><a href="https://twitter.com/ravikumar0403">Twitter</a></li>
-                <li><a href="https://instagr.am/ravikumar0403">Instagram</a></li>
-            </ul>
-        </footer>
-    </main>
-    <script src="script.js"></script>
+
+        <section class="section section-inverted">
+            <div class="container container-center">
+                <h1>Blogs</h1>
+                <p>I learn a lot of new things everyday and I love to make beginner friendly blogs to give back to the
+                    community. </p>
+                <a href="./blogs.html" class="link link-secondary">Read my Blogs</a>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-heading">Social Links</div>
+        <ul class="footer-pills">
+            <li class="list-item-inline"><a href="https://www.linkedin.com/in/ravikumar0403/" class="link">Linkedin</a>
+            </li>
+            <li class="list-item-inline"><a href="https://github.com/ravikumar0403" class="link">Github</a></li>
+            <li class="list-item-inline"><a href="https://twitter.com/ravikumar0403" class="link">Twitter</a></li>
+        </ul>
+    </footer>
+
+
 </body>
+
 </html>

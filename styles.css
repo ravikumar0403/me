@@ -1,0 +1,170 @@
+/* Import font from https://fonts.google.com/ */
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #2d30ff;
+    --secondary-color: #e8f3ff;
+    --heading-color: #e6165b;
+}
+
+body {
+    font-family: 'Bitter', serif;
+    margin: auto;
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+.main {
+    min-height: 80vh;
+}
+
+/* container */
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* links */
+.link {
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.link-secondary {
+    border: 0.5px solid var(--primary-color);
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+}
+
+.btn-primary{
+    border-radius: 10px;
+    border: none;
+    padding: 10px 30px;
+    margin: 10px;
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* BEM naming conventions in CSS */
+
+/* lists */
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+/* nav */
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 2rem 0.5rem;
+    border-bottom-left-radius: 1.5rem;
+}
+
+.nav-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+    display: inline;
+    padding-left: 1rem;
+}
+
+.navigation .link {
+    color: white;
+}
+
+.nav-pills {
+    float: right;
+    display: inline;
+    margin: auto;
+}
+
+.link-active {
+    font-weight: bold;
+}
+
+/* header */
+.header {
+    padding: 2rem;
+}
+
+.header-img {
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.header-heading {
+    color: var(--heading-color);
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.header-heading-inverted {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+/* sections */
+.section {
+    padding: 1.5rem;
+}
+
+.section h1 {
+    text-align: center;
+    margin: 0.5rem 0rem;
+}
+
+.section p {
+    text-align: justify;
+}
+
+.section-inverted {
+    background-color: var(--secondary-color);
+}
+
+.section-listed h1 {
+    text-align: left;
+    margin: 0.5rem 0rem;
+}
+
+/* footer */
+.footer {
+    background-color: var(--primary-color);
+    border-top-right-radius: 1.5rem;
+    color: white;
+    padding: 1.5rem 0rem;
+    text-align: center;
+}
+
+.footer-heading {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer-pills {
+    padding-left: 0rem;
+    margin: auto;
+}
+
+.footer .link {
+    color: white;
+}
