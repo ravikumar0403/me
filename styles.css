@@ -8,6 +8,10 @@
     --heading-color: #e6165b;
 }
 
+*:focus{
+    outline: none;
+}
+
 body {
     font-family: 'Bitter', serif;
     margin: auto;
@@ -59,7 +63,6 @@ hr {
     color: white;
 }
 
-/* BEM naming conventions in CSS */
 
 /* lists */
 .list-non-bullet {
