@@ -110,6 +110,7 @@ hr {
 
 .header-img {
     max-width: 400px;
+    width:80vw;
     display: block;
     margin: auto;
 }
